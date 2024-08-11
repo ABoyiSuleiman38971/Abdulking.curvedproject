@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Section Nav_Header */
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8em;
+}
+.nav-header .Huddle-logo{
+    width: 9em;
+    height: 1.5em;
+    margin: 25px;
+
+}
+.nav-header .try_it{
+    font-size: 1em;
+    margin: 20px;
+    border: 2px solid hsl(321, 100%, 78%);
+    padding: 10px 30px 10px;
+    color: hsl(321, 100%, 78%);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.nav-header .try_it:hover{
+    border: 2px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+}
+/* Section 2 */
+.title .T{
+    font-size: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title .title_1{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 28em;
+    padding-right: 28rem;
+    margin: 20px 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.title .btn{
+    text-align: center;
+    background-color: hsl(321, 100%, 78%);
+    font-family: "Poppins", sans-serif;
+    color: white;
+    padding: 15px;
+    margin-left: 33em;
+    margin-right: 34rem;
+    border-radius: 50px;
+    margin-bottom: 5em;
+    cursor: pointer;
+}
+
+.title .btn:hover{
+    background-color: hsl(322, 100%, 66%)
+
+}
+
+section .container .image_T{
+    width: 900px;
+    margin-left: 15em;
+    margin-bottom: 5em;   
+}
+
+section .rating{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10em ;
+}
+
+.communities .follow{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.communities .follow_1{
+    font-family: "Poppins", sans-serif;
+}
+
+.message .million{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.message .M_text{
+    font-family: "Poppins", sans-serif;
+}
+
+section .communities .follow{
+    font-size: 80px;
+}
+
+section .message {
+    margin-left: -50px;
+}
+
+section .message .message_icon{
+    margin-left: -110px;
+} 
+
+section .message .million {
+    font-size: 80px;
+    margin-left: -110px;
+}
+
+section .message .M_text{
+    margin-left: -90px;
+}
+
+
+.grow_img,  .text_1, .Grow_together{
+    position: absolute;
+    transform: translateX(0%);
+ }
+
+.grow_img{
+    width: 40rem;
+    height: 35rem;
+    padding: 90px;
+    right: 8%;
+}
+
+.Grow_together{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    bottom: -31.5em;
+    left: 3.1em;
+    font-size: 38px;
+}
+.text_1{
+    font-family: "Open Sans", sans-serif;
+    margin-right: 51em;
+    bottom: -85em;
+    font-size: 15px;
+    left: 8em;
+    text-align: justify;
+    line-height: 1.3em;
+}
+
+
+.flow_conversation,  .flowing, .text_2{
+    position: absolute;
+    transform: translateX(0%);
+ }
+
+ .flow_conversation{
+    width: 40rem;
+    height: 32rem;
+    padding: 90px;
+    left: 2%;
+    bottom: -65em;
+}
+
+.flowing{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    bottom: -20em;
+    right: -13em;
+    font-size: 38px;
+}
+
+.text_2{
+    font-family: "Open Sans", sans-serif;
+    left: 108%;
+    bottom: -54em;
+    right: -87%;
+    font-size: 15px;
+    line-height: 1.3em;
+}
+
+
+.Your_User, .Topic, .text_3{
+    position: absolute;
+    transform: translateX(0%);
+}
+
+.Your_User{
+    width: 35rem;
+    height: 30rem;
+    bottom: -162em;
+    padding: 90px;
+    right: 8em;
+}
+
+.Topic{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin: 80px;
+    bottom: -64em;
+    left: 1em;    
+    font-size: 38px;
+}
+
+.text_3{
+    font-family: "Open Sans", sans-serif;
+    margin-right: 55em;
+    bottom: -162em;
+    font-size: 15px;
+    left: 8em;
+    text-align:left;
+    line-height: 1.3em;
+}
+
+.ready_c{
+    margin-top: 63em;
+    display: grid;
+    justify-content: center;
+}
+
+.ready_c, .build{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.container_b{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 20px;  
+    border-radius: 30px;
+    font-size: 15px;
+    background-color:  hsl(321, 100%, 78%);
+    color: white;
+    border: solid  hsl(321, 100%, 78%);
+    cursor: pointer;
+}
+
+.container_b:hover{
+    background-color: hsl(322, 100%, 66%);
+    border: solid hsl(322, 100%, 66%);
+}
+
+footer{
+    margin-top: 15rem;
+    color: hsl(192, 100%, 9%);
+}
+
+.footer_background{
+    position: absolute;
+    height: 190px;
+    width: 100%;
+    overflow: hidden;  
+}
+.container_huddle  .down-section::after{
+    content: "";
+    top: 55px;
+    width: 104.2%;
+    height: 66%;
+    position: absolute;
+    transform: translate(-4%, 40%);
+    background-color: hsl(192, 100%, 9%);
+}
+
+.container_huddle  .down-section{
+    position: absolute;
+    height: 79%;
+    width: 100%;
+}
+
+ .container_logo, .texts, .Icons_1, .Icons_2, .News{
+    position: absolute;
+    transform: translateX(0%);
+
+ }
+
+/* For logo */
+ .container_logo{
+    top: 252.8rem; 
+    filter: brightness(0) invert(1);
+    width: 210px;
+    left: 100px;
+    /* the brightness(0) makes the image completely black, 
+    and invert(1) inverts the colors, turning the black to 
+    white */
+}
+
+.texts{
+    top: 256rem;
+    color: white;
+    margin-left: 8em;
+    margin-right: 80em;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8em;
+}
+
+.Icons_1{
+    top: 262rem;
+    color: white;
+    margin-right: 60rem;
+    margin-left: 6rem;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 1.8em;
+}
+.Icons_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 264rem;
+    color: white;
+    font-size: 2em;
+    margin-left: 6rem;
+    margin-top: 50px;
+    cursor: pointer;
+    list-style: none;
+}
+
+
+.News{
+    top: 253rem;
+    color: rgb(235, 232, 232);
+    margin-left: 50rem;   
+}
+.News h3{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.News .text_5{
+    margin-right: 20em;
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8em;
+    color: white;
+}
+
+.search .search-box{
+    padding: 10px 95px 15px 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: solid white;
+}
+
+.search-btn{
+    padding: 10px 30px 10px 30px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    background-color:hsl(321, 100%, 78%);
+    border: solid hsl(321, 100%, 78%);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 5rem;
+}
+
+.search-btn:hover{
+    background-color: hsl(322, 100%, 66%);
+    border: solid hsl(322, 100%, 66%);
+}
+
+.attribution{
+    color: white;
+    margin-left: -25rem; 
+}
+
+@media screen and (max-width: 375px){
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-header{
+        margin-bottom: 5em;
+    }
+    
+    .nav-header .Huddle-logo{
+        width: 7em;
+        height: 1.2em;
+    }
+    .nav-header .try_it{
+        font-size: 12px;
+        padding: 5px 15px 5px;
+    }
+
+    .title .T{
+        font-size: 29px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        line-height: 1.5em;
+    }
+    
+    .title .title_1{
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 50px;
+    }
+
+    .title .btn{
+        padding: 10px 25px 10px 25px;
+        margin-left: 5em;
+        margin-right: 5rem;
+        border-radius: 50px;
+        margin-bottom: 5em;
+    }
+
+    section .container .image_T{
+        width: 310px;
+        margin-left: 2em;
+        margin-bottom: 5em;   
+    }
+
+    .rating .communities{
+        display:inline
+    }
+    .communities .community{
+        width: 40px;
+        height: 30px;
+        margin-left: 30px;
+    }
+
+    .communities .follow{
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+
+    .communities .follow_1{
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+      .rating  .message{
+        margin-top: 15em;
+        margin-left: -12em;
+    }
+    .message .message_icon{
+        width: 40px;
+        height: 30px;
+    }
+
+    .message .million{
+        margin-top: 0px;
+    }
+
+    .message .M_text{
+        margin-top: 0px;
+    }
+    .grow_img{
+        width: 19rem;
+        height: 15rem;
+        margin-left: 10em;
+        padding: 0;
+    }
+
+    .Grow_together{
+        top: 68em;
+        left: 3.7em;
+        font-size: 25px;
+    }
+
+    .text_1{
+        top: 117em;
+        margin-right: 10px;
+        font-size: 15px;
+        left: 10px; 
+        line-height: 1.3em;
+        text-align: center;
+    }
+
+    .flow_conversation{
+        width: 19rem;
+        height: 15rem;
+        padding: 0px;
+        left: 5%;
+        top: 62em;
+    }
+    .flowing{
+        top: 54em;
+        right: 0em;
+        font-size: 24px;
+    }
+
+    .text_2{
+        left: -1%;
+        top: 90em;
+        right: -10%;
+        text-align: center;
+    }
+
+    .Your_User{
+        width: 19rem;
+        height: 15rem;
+        top: 161em;
+        padding: 0px;
+        right: 2em;
+    }
+    .Topic{
+        margin-top: 10px;
+        top: 115em;
+        left: 1.5em;    
+        font-size: 25px;
+    }
+    
+    .text_3{
+        margin-right: 1em;
+        bottom: -165em;
+        font-size: 15px;
+        left: 1em;
+        text-align: center;
+    }
+
+    .ready_c{
+        margin-top: 67em;
+    }
+
+    .ready_c, .build{
+        font-size: 30px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    
+    .container_b{
+        margin-left: 60px;
+        margin-right: 60px;
+        padding: 10px;  
+    }
+    
+    footer{
+        margin-top: 12rem;
+    }
+
+    .footer_background{
+        height: 40px;
+        width:100%;
+    }
+
+    .container_huddle  .down-section::after{
+        top: -255px;
+        width: 104.2%;
+        height: 85%;
+    }
+    
+    .container_huddle  .down-section{
+        position: absolute;
+        height: 156%;
+        width: 100%;
+    }
+
+    .container_logo{
+        top: 252.8rem; 
+        left: 10%;
+    }
+
+    .texts{
+        top: 256rem;
+        margin-left: 3em;
+        margin-right: 1em;
+        font-size: 13px;
+    }
+
+    .Icons_1{
+        top: 262rem;
+        margin-right: 3rem;
+        margin-left: 3rem;
+        font-size: 15px;
+        line-height: 1.8em;
+    }
+    .Icons_2{
+        align-items: center;
+        font-size: 2em;
+        margin-left: 3rem;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .News{
+        top: 232rem;
+        margin-left: 0rem;   
+    }
+
+    .News h3{
+        font-size: 20px;
+        margin-left: 1.9em;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .News .text_5{
+        margin-right: 3em;
+        margin-left: 3em;
+        margin-bottom: 30px;
+        font-size: 13px;
+    }
+
+    .search .search-box{
+        padding: 10px 110px 15px 10px;
+        margin-right: 0px;
+        margin-left: 35px;
+        margin-bottom: 15px;
+    }
+
+    .search-btn{
+        margin-left: 15em;
+    }
+    .attribution{
+        display: none;
+    }
+}
